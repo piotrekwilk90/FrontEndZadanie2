@@ -93,7 +93,7 @@ header p:nth-child(1){
 }
 
 .button img{
-	width: 40%;
+	width: 500px;
 }
 
 .playBtn{
@@ -129,13 +129,13 @@ header p:nth-child(1){
 	background-color: rgb(255,255,255);
 	height: 20%;
 	 display: flex;
-  	justify-content: space-between;
+  	
   	
 	padding-top: 5%;
 	padding-bottom: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
-	margin: auto;
+	
 	
 	
 	
@@ -173,6 +173,144 @@ footer{
 footer p{
 	
 	opacity: 0.3;
+}
+
+@media only screen and (max-width: 1240px) {
+    body {
+		
+      
+    }
+	.button{
+	 
+	padding-top: 8%;
+	margin: auto;	
+	
+}
+
+.button img{
+	width: 300px;
+}
+	
+	.kolarz>img{
+		
+		
+		width: 50%;
+	}
+	
+	.kolarz {
+	padding-top: 5%;
+	max-width: 100%;
+		flex-wrap: wrap;
+		
+		
+}
+	header, article{
+	font-size:20px;
+font-family: Montserrat;
+	color:#FFFFFF;
+	
+	width: 55.2%;
+	margin: auto;
+	
+}
+
+header p:nth-child(1){
+	font-family: 'Playfair Display', serif;
+	font-size: 80px;
+	color:rgb(255,255,255);
+	margin-bottom: 0px;
+	padding-top: 60px;
+		
+
+}
+		.info{
+		display: flex;
+		flex-wrap: wrap;
+	
+	}
+	.info >ul{
+	
+	list-style-type: none;
+	min-width: 40%;
+	color:rgb(3, 3, 3);
+		padding-top: 10%;
+		padding-bottom: 10%;
+	
+}
+}
+@media only screen and (max-width: 640px) {
+    body {
+		
+      
+    }
+	.button{
+	 
+	padding-top: 8%;
+	margin: auto;	
+	
+}
+
+.button img{
+	width: 8%;
+}
+	
+	.kolarz>img{
+		
+		
+		width: 100%;
+	}
+	
+	.kolarz {
+	padding-top: 5%;
+	width: 100%;
+		flex-wrap: wrap;
+		
+		
+	
+}
+	
+	.info{
+		display: flex;
+		flex-wrap: wrap;
+	
+	}
+	.info >ul{
+	
+	list-style-type: none;
+	min-width: 35%;
+	color:rgb(3, 3, 3);
+		padding-top: 10%;
+		padding-bottom: 10%;
+	
+}
+	header, article{
+	font-size:16px;
+font-family: Montserrat;
+	color:#FFFFFF;
+	
+	width: 55.2%;
+	margin: auto;
+	
+}
+
+header p:nth-child(1){
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	color:rgb(255,255,255);
+	margin-bottom: 0px;
+	padding-top: 60px;
+		
+
+}
+	.playBtn{
+	
+	padding-top: 5%;
+		padding-bottom: 5%;
+		
+}
+	.playBtn img{
+		width: 20%;
+	}
 }
 
 
